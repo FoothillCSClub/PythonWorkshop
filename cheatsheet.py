@@ -76,20 +76,20 @@ a == b
 
 # now suppose that we only want to do something if a certain condition
 # holds true (like x is greater than 4)
-if (x > 4):
+if x > 4:
     print("Guess what? x is greater then 4!")
 
 # but what if we want to do something else if x isn't greater than 4?
-if (x > 4):
+if x > 4:
     print("Guess what? x is greater then 4!")
 else:
     print("Oh crap! Whatever happened to x?")
 
 # Well that's all well and good, but what about those piecewise functions
 # from math?
-if (x < 2):
+if x < 2:
     y = 3 + x
-elif (x > 2):
+elif x > 2:
     y = x * 17
 else:
     print("x is 2! value undefined!")
