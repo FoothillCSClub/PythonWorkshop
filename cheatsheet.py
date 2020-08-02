@@ -32,7 +32,7 @@ a - b
 # multiplied:
 a * b
 
-# devided:
+# divided:
 a / b
 
 # raise a to the power of b
